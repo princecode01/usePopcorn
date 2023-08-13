@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import StarRating from "./StarRating";
-import { useMovies } from "./Hooks/useMovies";
-import { useLocalStorageState } from "./Hooks/useLocalStorageState";
-import { useKey } from "./Hooks/useKey";
+import { useMovies } from "./CustomHooks/useMovies";
+import { useLocalStorageState } from "./CustomHooks/useLocalStorageState";
+import { useKey } from "./CustomHooks/useKey";
 
 // const tempMovieData = [
 //   {
